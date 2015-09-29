@@ -10,6 +10,11 @@ import UIKit
 
 class SettingsViewController: UIViewController {
 
+    @IBAction func accountButtonAction(sender: AnyObject) {
+        
+        performSegueWithIdentifier("AccountBackSegue", sender: self)
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 

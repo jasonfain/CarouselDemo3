@@ -10,6 +10,9 @@ import UIKit
 
 class FeedLongViewController: UIViewController {
     
+    @IBOutlet weak var accountButton: UIButton!
+    
+    @IBOutlet weak var conversationButton: UIButton!
     
     @IBOutlet weak var feedScrollView: UIScrollView!
 

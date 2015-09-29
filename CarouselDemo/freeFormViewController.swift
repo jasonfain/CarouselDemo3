@@ -8,7 +8,7 @@
 
 import UIKit
 
-class freeFormViewController: UIViewController {
+class freeFormViewController: UIViewController, UIScrollViewDelegate {
     
     @IBOutlet weak var pageControl: UIPageControl!
     
@@ -21,7 +21,8 @@ class freeFormViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-
+        scrollView.delegate = self
+        
         // Do any additional setup after loading the view.
         
         scrollView.contentSize = CGSize(width: 1280, height: 568)
@@ -33,9 +34,10 @@ class freeFormViewController: UIViewController {
             var page : Int = Int(round(scrollView.contentOffset.x / 320))
             
             // Set the current page, so the dots will update
+            
             pageControl.currentPage = page
             
-           if page == 1 {
+           if page == 3 {
                 
                 UIView.animateWithDuration(0.4, animations: {
                     
