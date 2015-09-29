@@ -162,6 +162,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="huz-jP-QG9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="dfG-P8-apI">
+                    <connections>
+                        <action selector="tapOutGesture:" destination="obT-0a-rsl" id="lXl-EH-bn6"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1095" y="122"/>
         </scene>
