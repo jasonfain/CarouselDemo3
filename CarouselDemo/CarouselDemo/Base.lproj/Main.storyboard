@@ -296,7 +296,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="1Sh-OI-wHO">
-                                <rect key="frame" x="0.0" y="0.0" width="73" height="62.5"/>
+                                <rect key="frame" x="0.0" y="0.0" width="73" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <segue destination="4FP-sj-Hv0" kind="modal" id="oMb-yP-iQo"/>
@@ -391,7 +391,7 @@
             <objects>
                 <viewController id="16J-R8-4pm" customClass="ConversationsViewController" customModule="CarouselDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Op9-l4-fmz">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="1604"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="conversations" id="ynJ-el-1FR">
@@ -473,6 +473,6 @@
         <image name="welcome4" width="320" height="568"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="6XO-BH-EYv"/>
+        <segue reference="wzO-39-I29"/>
     </inferredMetricsTieBreakers>
 </document>
